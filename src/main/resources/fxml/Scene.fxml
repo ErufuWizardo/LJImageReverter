@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lj.zorag.ringael.ljimagerevert.FXMLController">
+   <children>
+      <TextArea fx:id="outputArea" editable="false" onMouseClicked="#handleMouseClick" prefHeight="426.0" prefWidth="600.0" text="Please click on this text area to revert hyperlinks order in the text from clipboard. &#10;Result will be automatically pasted in the clipbord and displayed in this window as well.">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></TextArea>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
