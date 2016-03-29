@@ -79,7 +79,7 @@ public class FXMLController implements Initializable {
         } else {
             outputArea.setText(outputText.trim());
         }
-
+        
         final ClipboardContent content = new ClipboardContent();
         content.putString(outputText);
         clipboard.setContent(content);
